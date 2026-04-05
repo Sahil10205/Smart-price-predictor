@@ -20,6 +20,8 @@ Random Forest Regressor — Ensemble learning (Top Performer)
 
 ⭐ Achieved ~99.5% R² Accuracy with Random Forest
 
+
+
 📂 Dataset
 Domain: Amazon Electronics
 Size: ~14,592 records
@@ -30,7 +32,10 @@ Discount Percentage
 Product Category
 Brand & Availability
 Engineered Features (Ratings, Reviews)
+
+
 ⚙️ Core Capabilities
+
 🔹 Data Engineering
 Intelligent column mapping from raw dataset
 Category classification via keyword-based logic
@@ -43,6 +48,8 @@ Encoded categorical variables
 Outlier removal (1st–99th percentile filtering)
 Missing value handling
 Data validation for consistency
+
+
 📊 Exploratory Data Analysis
 
 Includes 13+ insightful visualizations, such as:
@@ -53,16 +60,21 @@ Discount vs price relationships
 Correlation heatmaps
 Feature importance ranking
 Residual analysis
+
+
 📈 Model Evaluation Metrics
 R² Score (Accuracy)
 Mean Absolute Error (MAE)
 Root Mean Squared Error (RMSE)
 Mean Absolute Percentage Error (MAPE)
+
+
 🏆 Performance Summary
 Model	Performance Level
 Linear Regression	Moderate
 Decision Tree	High
 Random Forest	⭐ Excellent (~99.5%)
+
 🖥️ Interactive Prediction System
 
 A command-line interface enables users to:
@@ -71,11 +83,14 @@ Select product category
 Input pricing and rating details
 Generate predictions from all models
 Compare outputs in real-time
+
+
 🛠️ Tech Stack
 Python
 NumPy, Pandas
 Matplotlib, Seaborn
 Scikit-learn
+
 📁 Project Structure
 ├── amazon_price_prediction.py
 ├── projdata.gz
@@ -85,6 +100,8 @@ Scikit-learn
 │   ├── ...
 │   └── graph13_actual_vs_predicted_all.png
 ├── README.md
+
+
 ▶️ Execution Guide
 pip install numpy pandas matplotlib seaborn scikit-learn
 python amazon_price_prediction.py
@@ -97,6 +114,8 @@ Web deployment (Flask / FastAPI)
 Real-time data integration
 Advanced ML/DL model enhancements
 Pricing recommendation engine
+
+
 👤 Author
 
 Sahil Sharma
